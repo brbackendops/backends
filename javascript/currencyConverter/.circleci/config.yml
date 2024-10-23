@@ -1,0 +1,40 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+    - image: node:latest
+    steps:
+    - checkout
+    - run:
+        name: Install Dependencies
+        command: npm install
+    - run:
+        name: Build Docker Image
+        command: "docker build --build-arg VERSION_TYPE=alpine -t currencyconverterimg \n"
+    - run:
+        name: Run the App
+        command: npm run build
+
+  test:
+    docker:
+    - image: node:latest
+    steps:
+    - checkout
+    - run:
+        name: Install Dependencies
+        command: npm install
+    - run:
+        name: Run the tests
+        command: npm run test
+
+
+
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+    - build
+    - test:
+        requires:
+        - build

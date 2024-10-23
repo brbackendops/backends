@@ -1,0 +1,11 @@
+## environment files
+*.env
+
+## compiled
+dist/
+
+## node modules
+node_modules/
+
+## test
+coverage/

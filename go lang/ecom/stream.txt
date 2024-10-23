@@ -1,0 +1,17 @@
+flusher , err := w.(http.Flusher)
+
+w.WriteHead(http.StatusOK)
+
+
+for rows.Next() {
+    cols, _ := rows.SliceScan()
+    catArr = append(catArr, map[string]interface{}{
+        "id":          cols[0],
+        "name":        cols[1],
+        "description": cols[2],
+        "created_at":  cols[3],
+        "updated_at":  cols[4],
+    })
+    if err := json.NewEncoder(w).Encode(category); err != nil {}
+    flusher.Flush()
+}

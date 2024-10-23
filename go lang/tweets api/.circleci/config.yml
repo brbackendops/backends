@@ -1,0 +1,34 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+    - image: golang:1.17
+    steps:
+    - checkout
+    - run:
+        name: Install go dependencies
+        command: go mod download
+    - run:
+        name: Build API binary
+        command: go build -o tweets .
+
+  test:
+    docker:
+    - image: golang:1.17
+    steps:
+    - checkout
+    - run:
+        name: Install go dependencies
+        command: go mod download
+    - run:
+        name: Run Tests
+        command: go test ./tests
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+    - build
+    - test:
+        requires:
+        - build

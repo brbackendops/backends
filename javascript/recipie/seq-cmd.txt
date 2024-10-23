@@ -1,0 +1,9 @@
+npx sequelize-cli init
+npx sequelize-cli model:generate --name User --attributes firstName: string ....
+npx sequelize-cli db:migrate
+
+npx sequelize-cli db:migrate:undo  -- undo latest migration
+npx sequelize-cli db:migrate:undo:all -- revert back to initial state
+
+npx sequelize-cli migration:generate --name name_of_migration
+(queryInterface) used to modify existing db

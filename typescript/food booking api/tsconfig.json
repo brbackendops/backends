@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "declaration": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,    
+    "strict": true,    
+    // "allowImportingTsExtensions":true,
+    "strictPropertyInitialization":false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "types": ["node","jest"],
+    "lib": [
+      "ES2022",
+      "ES2020"
+    ]
+  },
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "NodeNext"
+    }
+  },
+  "include": ["src/**/*.ts","src/**/*.test.ts"],
+  "exclude": ["node_modules","dist"]
+}

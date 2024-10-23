@@ -1,0 +1,5 @@
+/env
+.env
+/src/__pycache
+/src/booksApp/__pycache
+/src/db/__pycache

@@ -1,0 +1,9 @@
+
+
+----Alter Table and make changes
+prisma migrate save --experimental
+prisma migrate up --experimental
+
+
+----create migration
+prisma migrate resolve --name

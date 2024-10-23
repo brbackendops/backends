@@ -1,0 +1,57 @@
+# User Api Lists
+- [x] User Model
+- [x] Json Web Token
+- [x] Authentication
+- [x] Address Model
+- [x] Add User Address
+- [x] Update User Address
+- [x] Update User Profile
+
+# Product Api Lists
+- [x] Product Model
+- [x] Product Create
+- [x] Product Update
+- [x] Product Delete
+- [] Product List
+- [] Product Search
+
+# Cart Api Lists
+- [x] add to cart
+- [ ] remove item from cart
+- [ ] cart checkout
+- [ ] instant buy
+
+product:
+    id
+    name
+    description
+    price
+    image
+    rating
+
+cart:
+    product_id
+    product_name
+    price
+    rating
+    image
+
+Address:
+    id
+    House
+    street
+    city
+    pincode
+
+Order:
+    id
+    order_cart []cart
+    orderd_at time.Time
+    price
+    payment
+    discount
+    payment_method
+
+Payment:
+    digital bool
+    cod bool

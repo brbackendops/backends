@@ -1,0 +1,32 @@
+Table Driven Test
+=================
+type addTest struct {
+	arg1, arg2, expected int
+}
+
+var tests = []addTest{
+	{2, 3, 5},
+	{3, 3, 6},
+	{10, 10, 30},
+}
+
+func add(a, b int) int {
+	return a + b
+}
+
+func TestAdd(t *testing.T) {
+	for _, v := range tests {
+		if output := add(v.arg1, v.arg2); output != v.expected {
+			t.Errorf("output is %v but expected %v", output, v.expected)
+		}
+	}
+}
+
+Benchmark Test
+===============
+func BenchmarkAdd(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		add(4, 6)
+	}
+}
+go test bench=. or go test bench=Add

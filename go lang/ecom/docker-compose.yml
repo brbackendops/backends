@@ -1,0 +1,44 @@
+version: "3"
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    ports:
+      - 5432:5432
+    container_name: db
+    network_mode: bridge
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=ecomgolang
+    volumes:
+      - db-data:/var/lib/postgresql/data
+  pgadmin:
+    image: chorss/docker-pgadmin4
+    container_name: pgAdmin
+    depends_on:
+      - db
+    network_mode: bridge
+    ports:
+      - 5050:5050
+  ecom_api:
+    build: .
+    container_name: ecom_api
+    network_mode: bridge
+    restart: always
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=postgres
+      - DB_PASSWORD=password
+      - DB_NAME=ecomgolang
+      - LOCAL_ENV=false
+    volumes:
+      - .env:/user/src/app/.env
+    depends_on:
+      - db
+    ports:
+      - "4000:4000"
+    command: go run main.go
+volumes:
+  db-data:

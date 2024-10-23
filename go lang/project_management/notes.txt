@@ -1,0 +1,75 @@
+Accept()
+Router()
+Request()
+Context()
+Stack()
+Cookies(&fiber.Cookie{
+
+})
+
+Cookies("jit")
+Download
+Ips
+Ip
+Fresh
+JSON
+BodyParser
+BodyRaw
+BaseUrl
+Get() return http headers
+GetReqHeaders() return http request headers as map
+GetRespHeaders() return http response headers as map
+GetUrl
+Set() -> Set("Content-Type","application/json") , set response http header
+CookieParser
+ClearCookie
+FormFile
+SaveFile
+FormValue("img")
+c.GetRouteURL("user.show", fiber.Map{"id": 1}) 1st params is Name of url
+Hostname
+Is -> returns matching Content Type
+IsFromLocal -> returns true if it comes from localhost
+Map - alternative to map[int]string like
+JSONP - sends callbacks
+Links
+Locals("user","admin") -> scoped to request and available to handler who handles that request
+c.Location("http://127.0.0.1:3000/users/register")
+MultipartForm -> returns map[string][]string
+ -> Form("image")
+
+Next()
+OriginalURL()
+Path
+Protocol
+Params
+ParamsInt
+ParamsParser
+Queries -> // c := c.Queries(); c["id"] 
+Query -> c.Query("id")
+QueryBool("name") -> false if not exists , true if exists
+QueryFloat - for float numbers
+QueryInt - for numbers
+QueryParser
+Range -> for x in range fiber.Range(1000)
+SendStatus
+Redirect("/")
+RedirectToRoute("user", fiber.Map{
+    "name": "fiber"
+})
+
+Render -> returns text/html
+Request -> returns Request pointer
+Response -> returns Response pointer
+Route -> returns matched route struct
+SaveFile -> used to save any multipart file to disk , f.Filename
+SaveFileToStorage -> save to external storage
+Secure - if tls connection is implemented , it returns true
+Send
+SendStream
+SendString
+SendFile -> transfer the file from given path
+Stale() -> is it old request
+Status
+Subdomains -> returns slice of subdomains in the requested domain
+XML -> return response in xml format

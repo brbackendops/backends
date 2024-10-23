@@ -1,0 +1,358 @@
+[
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "desc",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy.dialects.postgresql",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncEngine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio.session",
+        "description": "sqlalchemy.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "src.booksApp.dto",
+        "description": "src.booksApp.dto",
+        "peekOfCode": "class Book(BaseModel):\n    id: int\n    name: str\n    author: str\n    publisher: str\n    published_date: str\n    published_year: str\n    rating: float\n    price: float\n    stock: bool",
+        "detail": "src.booksApp.dto",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreate",
+        "kind": 6,
+        "importPath": "src.booksApp.dto",
+        "description": "src.booksApp.dto",
+        "peekOfCode": "class BookCreate(BaseModel):\n    name: str\n    author: str\n    publisher: str\n    published_date: str\n    published_year: str\n    rating: float\n    price: float\n    stock: bool\n    page_count: int",
+        "detail": "src.booksApp.dto",
+        "documentation": {}
+    },
+    {
+        "label": "BookUpdate",
+        "kind": 6,
+        "importPath": "src.booksApp.dto",
+        "description": "src.booksApp.dto",
+        "peekOfCode": "class BookUpdate(BaseModel):\n    name: str = None\n    author: str = None\n    price: float = None\n    page_count: int = None\n    stock: bool = None",
+        "detail": "src.booksApp.dto",
+        "documentation": {}
+    },
+    {
+        "label": "Error",
+        "kind": 6,
+        "importPath": "src.booksApp.error",
+        "description": "src.booksApp.error",
+        "peekOfCode": "class Error(HTTPException):\n    def __init__(self, status_code: int, detail: str):\n        super().__init__(status_code=status_code, detail=detail)\n    def to_dict(self):\n        return {\"status\": \"error\", \"error\": self.detail}",
+        "detail": "src.booksApp.error",
+        "documentation": {}
+    },
+    {
+        "label": "BookModel",
+        "kind": 6,
+        "importPath": "src.booksApp.models",
+        "description": "src.booksApp.models",
+        "peekOfCode": "class BookModel(SQLModel, table=True):\n    __tablename__ = \"books\"\n    id: int = Field(primary_key=True)\n    name: str\n    author: str\n    publisher: str\n    published_date: str\n    published_year: str\n    rating: float = Field(default=0.0)\n    price: float = Field(default=0.0)",
+        "detail": "src.booksApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "book_route",
+        "kind": 5,
+        "importPath": "src.booksApp.routes",
+        "description": "src.booksApp.routes",
+        "peekOfCode": "book_route = APIRouter()\nbook_service = BookService()\n@book_route.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_books(session: AsyncSession = Depends(get_session)):\n    try:\n        books = await book_service.get_all_books(session)\n        print(books)\n        books = [book.to_dict() for book in books]\n        return {\"status\": \"success\", \"data\": books}\n    except Exception as err:",
+        "detail": "src.booksApp.routes",
+        "documentation": {}
+    },
+    {
+        "label": "book_service",
+        "kind": 5,
+        "importPath": "src.booksApp.routes",
+        "description": "src.booksApp.routes",
+        "peekOfCode": "book_service = BookService()\n@book_route.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_books(session: AsyncSession = Depends(get_session)):\n    try:\n        books = await book_service.get_all_books(session)\n        print(books)\n        books = [book.to_dict() for book in books]\n        return {\"status\": \"success\", \"data\": books}\n    except Exception as err:\n        print(err)",
+        "detail": "src.booksApp.routes",
+        "documentation": {}
+    },
+    {
+        "label": "BookService",
+        "kind": 6,
+        "importPath": "src.booksApp.service",
+        "description": "src.booksApp.service",
+        "peekOfCode": "class BookService:\n    async def get_all_books(self, session: AsyncSession) -> List[BookModel]:\n        statement = select(BookModel).order_by(desc(BookModel.created_at))\n        result = await session.execute(statement)\n        return result.scalars().all()\n    async def get_book(self, session: AsyncSession, id: int) -> BookModel | None:\n        statement = select(BookModel).where(BookModel.id == id)\n        result = await session.execute(statement)\n        return result.scalar_one_or_none()\n    async def get_book_write_access(",
+        "detail": "src.booksApp.service",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "peekOfCode": "engine = create_async_engine(url=Config.DATABASE_URL, echo=True)\nasync def db_init():\n    async with engine.begin() as conn:\n        from src.booksApp.models import BookModel\n        await conn.run_sync(SQLModel.metadata.create_all)\nasync def get_session() -> AsyncEngine:\n    Session = sessionmaker(bind=engine, class_=AsyncSession, expire_on_commit=False)\n    async with Session() as session:\n        yield session",
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    DATABASE_URL: str\n    model_config = SettingsConfigDict(env_file=\".env\", extra=\"ignore\")\nConfig = Settings()",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "Config = Settings()",
+        "detail": "src.config",
+        "documentation": {}
+    }
+]

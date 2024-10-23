@@ -1,0 +1,14 @@
+[project]
+name = "book"
+requires-python = ">=3.11"
+version = "1.0.0"
+dependencies = [
+	"fastapi",
+	"sqlmodel",
+	"pydantic",
+	"postgres",
+	"pydantic_settings",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
